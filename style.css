@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+nav {  
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(7, 29, 128);
+    height: 50px;
+}
+
+.nav-left {
+   color: white;
+    display: flex;
+    align-items: center; 
+
+}
+
+.nav-right {
+       width: 80%;
+       align-self: center;
+}
+
+ul {
+     display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+li {
+    text-decoration: none;
+    color: white;   
+     
+}
+li a{
+    color: white;
+}
+
+
+#home{
+    background-image: url(./images/background.jpg);
+    text-align: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+#duck {
+    display: flex;
+    height: 50vh;
+}
+
+.duck img{
+  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  height: 30vh;  
+  
+}
+
+.text h2{
+    color: red;
+    padding-top: 3px;
+    margin-bottom: 50px;
+}
+
+.text p {
+  color: darkblue;
+   text-indent: 10%;
+   font-size: 20px;
+}
+
+
+#emergency {
+    border: 2px solid blue;
+    text-align: center;
+}
+#emergency h2 {
+    color: red;
+    padding-top: 3px;
+    margin-bottom: 50px;
+}
+.grid-container {   
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+.grid-item {
+    border: solid 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+   
+
+}
+h2{
+    color:red
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:darkgrey ;
+}
+.contact-form{
+    display: flex; 
+    align-items: center;
+    justify-content: center;   
+    flex-direction: column;
+    width: 25%;
+}
