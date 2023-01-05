@@ -73,7 +73,7 @@ li a{
 
 
 #emergency {
-    border: 2px solid blue;
+ 
     text-align: center;
 }
 #emergency h2 {
@@ -96,6 +96,8 @@ li a{
     justify-content: center;
     align-items: center;
     height: 150px;
+    background-color: rgb(170, 175, 175);
+    border-radius: 20px;
    
 
 }
@@ -108,6 +110,7 @@ h2{
     flex-direction: column;
     align-items: center;
     background-color:darkgrey ;
+    margin-top: 10px;
 }
 .contact-form{
     display: flex; 
